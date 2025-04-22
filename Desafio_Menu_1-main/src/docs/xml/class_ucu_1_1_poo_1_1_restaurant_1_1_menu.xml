@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu" kind="class" language="C#" prot="public">
+    <compoundname>Ucu::Poo::Restaurant::Menu</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a50558d085b413c0a019062de726ddb76" prot="private" static="no" mutable="no">
+        <type>ArrayList</type>
+        <definition>ArrayList Ucu.Poo.Restaurant.Menu.dishes</definition>
+        <argsstring></argsstring>
+        <name>dishes</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Menu.dishes</qualifiedname>
+        <initializer>= new ArrayList()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Menu.cs" line="10" column="23" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a45817eb8e9908e7dce475e7f8051cf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Menu.AddDish</definition>
+        <argsstring>(Dish dish)</argsstring>
+        <name>AddDish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Menu.AddDish</qualifiedname>
+        <param>
+          <type><ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref></type>
+          <declname>dish</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Menu.cs" line="13" column="17" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a18b1e101e2c34a5f13120ca5f7ce23e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Menu.RemoveDish</definition>
+        <argsstring>(Dish dish)</argsstring>
+        <name>RemoveDish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Menu.RemoveDish</qualifiedname>
+        <param>
+          <type><ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref></type>
+          <declname>dish</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Menu.cs" line="19" column="17" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a6a7ca0bbe7d75db2553fd0a30516b831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref></type>
+        <definition>Dish Ucu.Poo.Restaurant.Menu.GetDishByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetDishByName</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Menu.GetDishByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Menu.cs" line="25" column="17" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="25" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a0179605e53ff07185111aa29b888ea31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Menu.ShowMenu</definition>
+        <argsstring>()</argsstring>
+        <name>ShowMenu</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Menu.ShowMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Menu.cs" line="38" column="17" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa el conjunto de platillos <ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref> disponibles en el restaurante. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/Menu.cs" line="8" column="7" bodyfile="Desafio_Menu_1-main/src/Menu.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a45817eb8e9908e7dce475e7f8051cf96" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Menu</scope><name>AddDish</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a50558d085b413c0a019062de726ddb76" prot="private" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Menu</scope><name>dishes</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a6a7ca0bbe7d75db2553fd0a30516b831" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Menu</scope><name>GetDishByName</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a18b1e101e2c34a5f13120ca5f7ce23e9" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Menu</scope><name>RemoveDish</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a0179605e53ff07185111aa29b888ea31" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Menu</scope><name>ShowMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests" kind="class" language="C#" prot="public">
+    <compoundname>Ucu::Poo::Restaurant::Tests::MenuTests</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a38838edffa82759c12c62d9d54fc96bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Tests.MenuTests.AddDish_WithValidDish_AddsDish</definition>
+        <argsstring>()</argsstring>
+        <name>AddDish_WithValidDish_AddsDish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Tests.MenuTests.AddDish_WithValidDish_AddsDish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/test/MenuTests.cs" line="7" column="17" bodyfile="Desafio_Menu_1-main/test/MenuTests.cs" bodystart="7" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a2af1366cf38878de6805d5a047f87875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Tests.MenuTests.RemoveDish_WithValidDish_RemovesDish</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveDish_WithValidDish_RemovesDish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Tests.MenuTests.RemoveDish_WithValidDish_RemovesDish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/test/MenuTests.cs" line="20" column="17" bodyfile="Desafio_Menu_1-main/test/MenuTests.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1ae2d2fd069f88eaede1a79be5e3ad4ceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Tests.MenuTests.GetDishByName_WithInvalidDish_ReturnsNull</definition>
+        <argsstring>()</argsstring>
+        <name>GetDishByName_WithInvalidDish_ReturnsNull</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Tests.MenuTests.GetDishByName_WithInvalidDish_ReturnsNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/test/MenuTests.cs" line="34" column="17" bodyfile="Desafio_Menu_1-main/test/MenuTests.cs" bodystart="34" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/test/MenuTests.cs" line="4" column="7" bodyfile="Desafio_Menu_1-main/test/MenuTests.cs" bodystart="5" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a38838edffa82759c12c62d9d54fc96bf" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Tests::MenuTests</scope><name>AddDish_WithValidDish_AddsDish</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1ae2d2fd069f88eaede1a79be5e3ad4ceb" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Tests::MenuTests</scope><name>GetDishByName_WithInvalidDish_ReturnsNull</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a2af1366cf38878de6805d5a047f87875" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Tests::MenuTests</scope><name>RemoveDish_WithValidDish_RemovesDish</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

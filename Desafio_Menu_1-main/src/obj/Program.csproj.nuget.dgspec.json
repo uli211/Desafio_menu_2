@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\src\\Program.csproj": {}
+    "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\src\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\src\\Program.csproj": {
+    "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\src\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\src\\Program.csproj",
+        "projectUniqueName": "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\src\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\src\\Program.csproj",
+        "projectPath": "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\src\\Program.csproj",
         "packagesPath": "C:\\Users\\ulise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\src\\obj\\",
+        "outputPath": "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ulise\\AppData\\Roaming\\NuGet\\NuGet.Config"

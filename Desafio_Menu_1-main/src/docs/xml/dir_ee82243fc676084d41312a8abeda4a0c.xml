@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="dir_ee82243fc676084d41312a8abeda4a0c" kind="dir">
+    <compoundname>Desafio_Menu_1-main</compoundname>
+    <innerdir refid="dir_adf41ace33a57a022aa752c73984cc88">Desafio_Menu_1-main/src</innerdir>
+    <innerdir refid="dir_7e350d0520def89a4b1af6bcf628658a">Desafio_Menu_1-main/test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><image type="html" name="https://www.ucu.edu.uy/plantillas/images/logo_ucu.svg" alt="UCU" inline="yes"></image>
+</para>
+<sect1 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md0">
+<title>Universidad Católica del Uruguay</title><sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md1">
+<title>Facultad de Ingeniería y Tecnologías</title><sect3 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md2">
+<title>Programación II</title></sect3>
+</sect2>
+</sect1>
+<sect1 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md3">
+<title>Desafío menú #1: Restaurante simple</title><sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md4">
+<title>Objetivo</title><para>Completar la implementación en C# las clases indicadas a continuación, con sus responsabilidades y colaboraciones también indicadas a continuación. Cada clase debe ser agregada por un estudiante diferente y deben trabajar en ramas diferentes.</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md5">
+<title>Pasos</title><para><orderedlist>
+<listitem><para>Uno de los estudiantes del equipo crea un repositorio privado a partir de este repositorio plantilla haciendo clic en el botón <computeroutput>Use this template</computeroutput> y luego en el comando <computeroutput>Create new repository</computeroutput>.</para>
+</listitem><listitem><para>El estudiante que creó el repositorio agrega a los demás integrantes del equipo haciendo clic en <computeroutput>Settings</computeroutput>, <computeroutput>Collaborators and Teams</computeroutput>, <computeroutput>Add people</computeroutput> para cada uno de los miembros del equipo, usando sus nombres de usuario.</para>
+</listitem><listitem><para>Todos clonan el repositorio creado a sus equipos.</para>
+</listitem><listitem><para>Todos crean una rama con el nombre que quieran, la única condición es que deben ser diferentes para cada miembro del equipo.</para>
+</listitem><listitem><para>Distribuyan las siguientes clases entre los miembros del equipo. Cada miembro implementa una clase diferente.</para>
+</listitem><listitem><para>El código no va a funcionar hasta que integren el trabajo en la rama <computeroutput>main</computeroutput>, por lo que deberán unir los cambios con frecuencia.</para>
+</listitem></orderedlist>
+</para>
+<para><simplesect kind="important"><para>Para compilar el código en Rider usen el comando <computeroutput>Build Solution</computeroutput> del menú <computeroutput>Build</computeroutput>. <linebreak/>
+<linebreak/>
+ Aunque todavía no vamos a ver cómo hacer casos de prueba, este repositorio usa casos de prueba para comprobar la implementación. Para ejecutar los casos de prueba ejecuten el comando <computeroutput>Run All Tests from Solution</computeroutput> en el menú <computeroutput>Tests</computeroutput> de Rider. Deberían ver una imagen como la siguiente si todo funcionó bien: <image type="html" name="/assets/image.png" alt="Resultado de las pruebas" inline="yes"></image>
+</para>
+</simplesect>
+</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md6">
+<title>Clases a implementar</title><para>A continuación la descripción de las clases, sus responsabilidades de hacer y de conocer, y sus colaboraciones.</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md7">
+<title>1. <bold>Clase <computeroutput>Dish</computeroutput></bold></title><para>Representa un platillo individual en el menú del restaurante.</para>
+<para><table rows="2" cols="2"><row>
+<entry thead="yes" colspan="2"><para>Dish   </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Conocer el nombre del platillo<linebreak/>
+ Conocer el precio del platillo<linebreak/>
+ Conoce si el platillo es vegetariano o no<linebreak/>
+  </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+</table>
+</para>
+<para><itemizedlist>
+<listitem><para>Responsabilidades de conocer:<itemizedlist>
+<listitem><para><bold>Name</bold>: Conocer el nombre del platillo.</para>
+</listitem><listitem><para><bold>Price</bold>: Conocer el precio del platillo.</para>
+</listitem><listitem><para><bold>IsVegetarian</bold>: Conocer si el platillo es vegetariano o no.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>No tiene responsabilidades de hacer.</para>
+</listitem><listitem><para>No tiene colaboradores.</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="important"><para>Debe ser posible crear una instancia de <computeroutput>Dish</computeroutput> e inicializar sus propiedades en una sola operación.</para>
+</simplesect>
+Aquí está el código provisto de la clase <ulink url="./src/Dish.cs"><computeroutput>Dish</computeroutput></ulink>.</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md8">
+<title>2. <bold>Clase <computeroutput>Menu</computeroutput></bold></title><para>Representa el conjunto de platillos disponibles en el restaurante.</para>
+<para><table rows="2" cols="2"><row>
+<entry thead="yes" colspan="2"><para>Menu   </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Conocer la lista de platillos disponibles en el restaurante<linebreak/>
+ Agregar un platillo a la lista de platillos del menú<linebreak/>
+ Eliminar un platillo de la lista del menú<linebreak/>
+ Buscar y devolver un platillo específico del menú basado en su nombre<linebreak/>
+  </para>
+</entry><entry thead="no"><para>Dish   </para>
+</entry></row>
+</table>
+</para>
+<para><itemizedlist>
+<listitem><para>Responsabilidades de conocer:<itemizedlist>
+<listitem><para><computeroutput>dishes</computeroutput>: Conocer la lista de platillos disponibles en el restaurante; esta responsabilidad está ya implementada con la variable de instancia <computeroutput>dishes</computeroutput> en el código provisto.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Responsabilidades de hacer<itemizedlist>
+<listitem><para><computeroutput>AddDish(Dish)</computeroutput>: Agregar un platillo a la lista de platillos del menú.</para>
+</listitem><listitem><para><computeroutput>RemoveDish(Dish)</computeroutput>: Eliminar un platillo de la lista del menú.</para>
+</listitem><listitem><para><computeroutput>Dish GetDishByName(string)</computeroutput>: Buscar y devolver un platillo específico del menú basado en su nombre; retorna <computeroutput>null</computeroutput> si no encuentra en platillo.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Colaboradores<itemizedlist>
+<listitem><para>Dish</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="remark"><para>Puedes acceder al i-ésimo elemento de la variable de instancia <computeroutput>dishes</computeroutput> con <computeroutput>dishes[i]</computeroutput> y las estructuras de repetición condicional que consideres apropiadas. También puedes recorrer los platillos en esa variable de instancia con la estructura repetitiva condicional <computeroutput>foreach</computeroutput>.</para>
+</simplesect>
+Aquí está el código provisto de la clase <ulink url="./src/Menu.cs"><computeroutput>Menu</computeroutput></ulink>.</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md9">
+<title>3. <bold>Clase <ulink url="./src/Table.cs"><computeroutput>Table</computeroutput></ulink></bold></title><para>Representa una mesa en el restaurante.</para>
+<para><table rows="2" cols="2"><row>
+<entry thead="yes" colspan="2"><para>Table   </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Conocer el número identificador de la mesa<linebreak/>
+ Conocer si la mesa está ocupada o no<linebreak/>
+ Conocer la lista de platillos que han sido ordenados en la mesa<linebreak/>
+ Marcar la mesa como ocupada<linebreak/>
+ Liberar la mesa y vaciar la lista de pedidos<linebreak/>
+ Agregar un platillo a los que han sido ordenados en la mesa<linebreak/>
+ Determinar si la mesa tiene pedidos o no<linebreak/>
+  </para>
+</entry><entry thead="no"><para>Dish   </para>
+</entry></row>
+</table>
+</para>
+<para><itemizedlist>
+<listitem><para>Responsabilidades de conocer:<itemizedlist>
+<listitem><para><computeroutput>Number</computeroutput>: Conocer el número identificador de la mesa.</para>
+</listitem><listitem><para><computeroutput>IsOccupied</computeroutput>: Conocer si la mesa está ocupada o no.</para>
+</listitem><listitem><para><computeroutput>Order</computeroutput>: Conocer la lista de platillos que han sido pedidos en la mesa; esta responsabilidad está ya implementada con la variable de instancia <computeroutput>order</computeroutput> en el código provisto.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Responsabilidades de hacer:<itemizedlist>
+<listitem><para><computeroutput>Occupy()</computeroutput>: Marcar la mesa como ocupada.</para>
+</listitem><listitem><para><computeroutput>Free()</computeroutput>: Liberar la mesa y vaciar la lista de pedidos.</para>
+</listitem><listitem><para><computeroutput>AddToOrder(Dish)</computeroutput>: Agregar un platillo a la lista de pedidos.</para>
+</listitem><listitem><para><computeroutput>bool HasOrders()</computeroutput>: Determinar si la mesa tiene pedidos o no; retorna <computeroutput>true</computeroutput> si los tiene y <computeroutput>false</computeroutput> en caso contrario.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Colaboradores:<itemizedlist>
+<listitem><para>Dish</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="remark"><para>El método <computeroutput>Clear()</computeroutput> de la clase <computeroutput>ArrayList</computeroutput> vacía la lista.</para>
+</simplesect>
+<simplesect kind="important"><para>Debe ser posible crear una instancia de <computeroutput>Table</computeroutput> e inicializar sus propiedades en una sola operación.</para>
+</simplesect>
+Aquí está el código provisto de la clase <ulink url="./src/Table.cs"><computeroutput>Table</computeroutput></ulink>.</para>
+</sect2>
+<sect2 id="C:/ProgramacionII_Recursar/Desafio_menu_2/Desafio_menu_2/Desafio_Menu_1-main/README.md_1autotoc_md10">
+<title>4. <bold>Clase <computeroutput>Waiter</computeroutput></bold></title><para>Representa un mozo en el restaurante, encargado de atender mesas.</para>
+<para><table rows="2" cols="2"><row>
+<entry thead="yes" colspan="2"><para>Waiter   </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Conocer el nombre del mozo<linebreak/>
+ Conocer las mesas asignadas al mozo<linebreak/>
+ Asignar una mesa al mozo<linebreak/>
+ Tomar un pedido para una mesa específica y agregar el platillo a la orden de esa mesa<linebreak/>
+  </para>
+</entry><entry thead="no"><para>Dish<linebreak/>
+ Table<linebreak/>
+   </para>
+</entry></row>
+</table>
+</para>
+<para><itemizedlist>
+<listitem><para>Responsabilidades de conocer:<itemizedlist>
+<listitem><para><computeroutput>Name</computeroutput>: Conocer el nombre del mozo.</para>
+</listitem><listitem><para><computeroutput>assignedTables</computeroutput>: Conocer las mesas asignadas al mozo; esta responsabilidad está ya implementada con la variable de instancia <computeroutput>assignedTables</computeroutput> en el código provisto.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Responsabilidades de hacer:<itemizedlist>
+<listitem><para><computeroutput>AssignTable(Table)</computeroutput>: Asignar una mesa al mozo.</para>
+</listitem><listitem><para><computeroutput>TakeOrder(Table, Dish)</computeroutput>: Tomar un pedido para una mesa específica y agregar el platillo a la orden de esa mesa.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Colaboradores:<itemizedlist>
+<listitem><para>Dish</para>
+</listitem><listitem><para>Table</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="important"><para>Debe ser posible crear una instancia de <computeroutput>Waiter</computeroutput> e inicializar sus propiedades en una sola operación.</para>
+</simplesect>
+Aquí está el código provisto de la clase <ulink url="./src/Waiter.cs"><computeroutput>Waiter</computeroutput></ulink>. </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/"/>
+  </compounddef>
+</doxygen>

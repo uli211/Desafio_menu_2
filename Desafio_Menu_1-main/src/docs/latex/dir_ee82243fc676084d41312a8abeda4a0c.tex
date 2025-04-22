@@ -1,0 +1,208 @@
+\doxysection{Referencia del directorio Desafio\+\_\+\+Menu\+\_\+1-\/main}
+\hypertarget{dir_ee82243fc676084d41312a8abeda4a0c}{}\label{dir_ee82243fc676084d41312a8abeda4a0c}\index{Referencia del directorio Desafio\_Menu\_1-\/main@{Referencia del directorio Desafio\_Menu\_1-\/main}}
+\doxysubsubsection*{Directorios}
+\begin{DoxyCompactItemize}
+\item 
+directorio \mbox{\hyperlink{dir_adf41ace33a57a022aa752c73984cc88}{src}}
+\item 
+directorio \mbox{\hyperlink{dir_7e350d0520def89a4b1af6bcf628658a}{test}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+\hypertarget{README.md_autotoc_md0}{}\doxysubsection{\texorpdfstring{Universidad Católica del Uruguay}{Universidad Católica del Uruguay}}\label{README.md_autotoc_md0}
+\hypertarget{README.md_autotoc_md1}{}\doxysubsubsection{\texorpdfstring{Facultad de Ingeniería y Tecnologías}{Facultad de Ingeniería y Tecnologías}}\label{README.md_autotoc_md1}
+\hypertarget{README.md_autotoc_md2}{}\doxysubsubsubsection{\texorpdfstring{Programación II}{Programación II}}\label{README.md_autotoc_md2}
+\hypertarget{README.md_autotoc_md3}{}\doxysubsection{\texorpdfstring{Desafío menú \#1\+: Restaurante simple}{Desafío menú \#1\+: Restaurante simple}}\label{README.md_autotoc_md3}
+\hypertarget{README.md_autotoc_md4}{}\doxysubsubsection{\texorpdfstring{Objetivo}{Objetivo}}\label{README.md_autotoc_md4}
+Completar la implementación en C\# las clases indicadas a continuación, con sus responsabilidades y colaboraciones también indicadas a continuación. Cada clase debe ser agregada por un estudiante diferente y deben trabajar en ramas diferentes.\hypertarget{README.md_autotoc_md5}{}\doxysubsubsection{\texorpdfstring{Pasos}{Pasos}}\label{README.md_autotoc_md5}
+
+\begin{DoxyEnumerate}
+\item Uno de los estudiantes del equipo crea un repositorio privado a partir de este repositorio plantilla haciendo clic en el botón {\ttfamily Use this template} y luego en el comando {\ttfamily Create new repository}.
+\item El estudiante que creó el repositorio agrega a los demás integrantes del equipo haciendo clic en {\ttfamily Settings}, {\ttfamily Collaborators and Teams}, {\ttfamily Add people} para cada uno de los miembros del equipo, usando sus nombres de usuario.
+\item Todos clonan el repositorio creado a sus equipos.
+\item Todos crean una rama con el nombre que quieran, la única condición es que deben ser diferentes para cada miembro del equipo.
+\item Distribuyan las siguientes clases entre los miembros del equipo. Cada miembro implementa una clase diferente.
+\item El código no va a funcionar hasta que integren el trabajo en la rama {\ttfamily main}, por lo que deberán unir los cambios con frecuencia.
+\end{DoxyEnumerate}
+
+\begin{DoxyImportant}{Important}
+Para compilar el código en Rider usen el comando {\ttfamily Build Solution} del menú {\ttfamily Build}. ~\newline
+~\newline
+ Aunque todavía no vamos a ver cómo hacer casos de prueba, este repositorio usa casos de prueba para comprobar la implementación. Para ejecutar los casos de prueba ejecuten el comando {\ttfamily Run All Tests from Solution} en el menú {\ttfamily Tests} de Rider. Deberían ver una imagen como la siguiente si todo funcionó bien\+: 
+\end{DoxyImportant}
+\hypertarget{README.md_autotoc_md6}{}\doxysubsubsection{\texorpdfstring{Clases a implementar}{Clases a implementar}}\label{README.md_autotoc_md6}
+A continuación la descripción de las clases, sus responsabilidades de hacer y de conocer, y sus colaboraciones.\hypertarget{README.md_autotoc_md7}{}\doxysubsubsection{\texorpdfstring{1. {\bfseries{Clase {\ttfamily Dish}}}}{1. {\bfseries{Clase {\ttfamily Dish}}}}}\label{README.md_autotoc_md7}
+Representa un platillo individual en el menú del restaurante.
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Dish   }}\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Dish   }}\\\cline{1-2}
+\endhead
+Conocer el nombre del platillo~\newline
+ Conocer el precio del platillo~\newline
+ Conoce si el platillo es vegetariano o no~\newline
+  &\\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Responsabilidades de conocer\+:
+\begin{DoxyItemize}
+\item {\bfseries{Name}}\+: Conocer el nombre del platillo.
+\item {\bfseries{Price}}\+: Conocer el precio del platillo.
+\item {\bfseries{Is\+Vegetarian}}\+: Conocer si el platillo es vegetariano o no.
+\end{DoxyItemize}
+\item No tiene responsabilidades de hacer.
+\item No tiene colaboradores.
+\end{DoxyItemize}
+
+\begin{DoxyImportant}{Important}
+Debe ser posible crear una instancia de {\ttfamily Dish} e inicializar sus propiedades en una sola operación.
+\end{DoxyImportant}
+Aquí está el código provisto de la clase \href{./src/Dish.cs}{\texttt{ {\ttfamily Dish}}}.\hypertarget{README.md_autotoc_md8}{}\doxysubsubsection{\texorpdfstring{2. {\bfseries{Clase {\ttfamily Menu}}}}{2. {\bfseries{Clase {\ttfamily Menu}}}}}\label{README.md_autotoc_md8}
+Representa el conjunto de platillos disponibles en el restaurante.
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Menu   }}\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Menu   }}\\\cline{1-2}
+\endhead
+Conocer la lista de platillos disponibles en el restaurante~\newline
+ Agregar un platillo a la lista de platillos del menú~\newline
+ Eliminar un platillo de la lista del menú~\newline
+ Buscar y devolver un platillo específico del menú basado en su nombre~\newline
+  &Dish   \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Responsabilidades de conocer\+:
+\begin{DoxyItemize}
+\item {\ttfamily dishes}\+: Conocer la lista de platillos disponibles en el restaurante; esta responsabilidad está ya implementada con la variable de instancia {\ttfamily dishes} en el código provisto.
+\end{DoxyItemize}
+\item Responsabilidades de hacer
+\begin{DoxyItemize}
+\item {\ttfamily Add\+Dish(\+Dish)}\+: Agregar un platillo a la lista de platillos del menú.
+\item {\ttfamily Remove\+Dish(\+Dish)}\+: Eliminar un platillo de la lista del menú.
+\item {\ttfamily Dish Get\+Dish\+By\+Name(string)}\+: Buscar y devolver un platillo específico del menú basado en su nombre; retorna {\ttfamily null} si no encuentra en platillo.
+\end{DoxyItemize}
+\item Colaboradores
+\begin{DoxyItemize}
+\item Dish
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxyRemark}{Comentarios}
+Puedes acceder al i-\/ésimo elemento de la variable de instancia {\ttfamily dishes} con {\ttfamily dishes\mbox{[}i\mbox{]}} y las estructuras de repetición condicional que consideres apropiadas. También puedes recorrer los platillos en esa variable de instancia con la estructura repetitiva condicional {\ttfamily foreach}.
+\end{DoxyRemark}
+Aquí está el código provisto de la clase \href{./src/Menu.cs}{\texttt{ {\ttfamily Menu}}}.\hypertarget{README.md_autotoc_md9}{}\doxysubsubsection{\texorpdfstring{3. {\bfseries{Clase \href{./src/Table.cs}{\texttt{ {\ttfamily Table}}}}}}{3. {\bfseries{Clase \href{./src/Table.cs}{\texttt{ {\ttfamily Table}}}}}}}\label{README.md_autotoc_md9}
+Representa una mesa en el restaurante.
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Table   }}\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Table   }}\\\cline{1-2}
+\endhead
+Conocer el número identificador de la mesa~\newline
+ Conocer si la mesa está ocupada o no~\newline
+ Conocer la lista de platillos que han sido ordenados en la mesa~\newline
+ Marcar la mesa como ocupada~\newline
+ Liberar la mesa y vaciar la lista de pedidos~\newline
+ Agregar un platillo a los que han sido ordenados en la mesa~\newline
+ Determinar si la mesa tiene pedidos o no~\newline
+  &Dish   \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Responsabilidades de conocer\+:
+\begin{DoxyItemize}
+\item {\ttfamily Number}\+: Conocer el número identificador de la mesa.
+\item {\ttfamily Is\+Occupied}\+: Conocer si la mesa está ocupada o no.
+\item {\ttfamily Order}\+: Conocer la lista de platillos que han sido pedidos en la mesa; esta responsabilidad está ya implementada con la variable de instancia {\ttfamily order} en el código provisto.
+\end{DoxyItemize}
+\item Responsabilidades de hacer\+:
+\begin{DoxyItemize}
+\item {\ttfamily Occupy()}\+: Marcar la mesa como ocupada.
+\item {\ttfamily Free()}\+: Liberar la mesa y vaciar la lista de pedidos.
+\item {\ttfamily Add\+To\+Order(\+Dish)}\+: Agregar un platillo a la lista de pedidos.
+\item {\ttfamily bool Has\+Orders()}\+: Determinar si la mesa tiene pedidos o no; retorna {\ttfamily true} si los tiene y {\ttfamily false} en caso contrario.
+\end{DoxyItemize}
+\item Colaboradores\+:
+\begin{DoxyItemize}
+\item Dish
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxyRemark}{Comentarios}
+El método {\ttfamily Clear()} de la clase {\ttfamily Array\+List} vacía la lista.
+\end{DoxyRemark}
+\begin{DoxyImportant}{Important}
+Debe ser posible crear una instancia de {\ttfamily Table} e inicializar sus propiedades en una sola operación.
+\end{DoxyImportant}
+Aquí está el código provisto de la clase \href{./src/Table.cs}{\texttt{ {\ttfamily Table}}}.\hypertarget{README.md_autotoc_md10}{}\doxysubsubsection{\texorpdfstring{4. {\bfseries{Clase {\ttfamily Waiter}}}}{4. {\bfseries{Clase {\ttfamily Waiter}}}}}\label{README.md_autotoc_md10}
+Representa un mozo en el restaurante, encargado de atender mesas.
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Waiter   }}\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\multicolumn{2}{|l|}{\cellcolor{\tableheadbgcolor}\textbf{ Waiter   }}\\\cline{1-2}
+\endhead
+Conocer el nombre del mozo~\newline
+ Conocer las mesas asignadas al mozo~\newline
+ Asignar una mesa al mozo~\newline
+ Tomar un pedido para una mesa específica y agregar el platillo a la orden de esa mesa~\newline
+  &Dish~\newline
+ Table~\newline
+   \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Responsabilidades de conocer\+:
+\begin{DoxyItemize}
+\item {\ttfamily Name}\+: Conocer el nombre del mozo.
+\item {\ttfamily assigned\+Tables}\+: Conocer las mesas asignadas al mozo; esta responsabilidad está ya implementada con la variable de instancia {\ttfamily assigned\+Tables} en el código provisto.
+\end{DoxyItemize}
+\item Responsabilidades de hacer\+:
+\begin{DoxyItemize}
+\item {\ttfamily Assign\+Table(\+Table)}\+: Asignar una mesa al mozo.
+\item {\ttfamily Take\+Order(\+Table, Dish)}\+: Tomar un pedido para una mesa específica y agregar el platillo a la orden de esa mesa.
+\end{DoxyItemize}
+\item Colaboradores\+:
+\begin{DoxyItemize}
+\item Dish
+\item Table
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxyImportant}{Important}
+Debe ser posible crear una instancia de {\ttfamily Waiter} e inicializar sus propiedades en una sola operación.
+\end{DoxyImportant}
+Aquí está el código provisto de la clase \href{./src/Waiter.cs}{\texttt{ {\ttfamily Waiter}}}. 

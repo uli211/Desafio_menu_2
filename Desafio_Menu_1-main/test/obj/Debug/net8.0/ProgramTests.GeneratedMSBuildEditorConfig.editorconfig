@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ucu.Poo.Program.Tests
-build_property.ProjectDir = C:\Users\ulise\RiderProjects\pii_2024_2_equipo14\Desafio_menu_2_2\Desafio_Menu_1-main\test\
+build_property.ProjectDir = C:\ProgramacionII_Recursar\Desafio_menu_2\Desafio_menu_2\Desafio_Menu_1-main\test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

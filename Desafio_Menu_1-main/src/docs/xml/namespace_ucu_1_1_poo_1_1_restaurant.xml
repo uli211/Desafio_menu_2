@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="namespace_ucu_1_1_poo_1_1_restaurant" kind="namespace" language="C#">
+    <compoundname>Ucu::Poo::Restaurant</compoundname>
+    <innerclass refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" prot="public">Ucu::Poo::Restaurant::Dish</innerclass>
+    <innerclass refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu" prot="public">Ucu::Poo::Restaurant::Menu</innerclass>
+    <innerclass refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order" prot="public">Ucu::Poo::Restaurant::Order</innerclass>
+    <innerclass refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table" prot="public">Ucu::Poo::Restaurant::Table</innerclass>
+    <innerclass refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter" prot="public">Ucu::Poo::Restaurant::Waiter</innerclass>
+    <innernamespace refid="namespace_ucu_1_1_poo_1_1_restaurant_1_1_tests">Ucu::Poo::Restaurant::Tests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/Dish.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

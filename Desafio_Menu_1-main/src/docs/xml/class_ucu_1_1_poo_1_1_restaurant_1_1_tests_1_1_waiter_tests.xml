@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests" kind="class" language="C#" prot="public">
+    <compoundname>Ucu::Poo::Restaurant::Tests::WaiterTests</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1ae5de16accdb24c6bb8852b37ca76178f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Tests.WaiterTests.Constructor_WithValidParameters_SetsProperties</definition>
+        <argsstring>()</argsstring>
+        <name>Constructor_WithValidParameters_SetsProperties</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Tests.WaiterTests.Constructor_WithValidParameters_SetsProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/test/WaiterTests.cs" line="7" column="17" bodyfile="Desafio_Menu_1-main/test/WaiterTests.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1a0607f112083093dd214cc801f0f0cae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Tests.WaiterTests.TakeOrder_WithValidParameters_TakesOrder</definition>
+        <argsstring>()</argsstring>
+        <name>TakeOrder_WithValidParameters_TakesOrder</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Tests.WaiterTests.TakeOrder_WithValidParameters_TakesOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/test/WaiterTests.cs" line="16" column="17" bodyfile="Desafio_Menu_1-main/test/WaiterTests.cs" bodystart="16" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/test/WaiterTests.cs" line="4" column="7" bodyfile="Desafio_Menu_1-main/test/WaiterTests.cs" bodystart="5" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1ae5de16accdb24c6bb8852b37ca76178f" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Tests::WaiterTests</scope><name>Constructor_WithValidParameters_SetsProperties</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1a0607f112083093dd214cc801f0f0cae9" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Tests::WaiterTests</scope><name>TakeOrder_WithValidParameters_TakesOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

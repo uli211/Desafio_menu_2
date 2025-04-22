@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="dir_adf41ace33a57a022aa752c73984cc88" kind="dir">
+    <compoundname>Desafio_Menu_1-main/src</compoundname>
+    <innerdir refid="dir_7b1eaa8f242433b6c385739311585f72">Desafio_Menu_1-main/src/obj</innerdir>
+    <innerfile refid="_dish_8cs">Dish.cs</innerfile>
+    <innerfile refid="_menu_8cs">Menu.cs</innerfile>
+    <innerfile refid="_order_8cs">Order.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_table_8cs">Table.cs</innerfile>
+    <innerfile refid="_waiter_8cs">Waiter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/"/>
+  </compounddef>
+</doxygen>

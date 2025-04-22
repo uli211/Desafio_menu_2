@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="_desafio___menu__1-main_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">&lt;img<sp/>alt=&quot;UCU&quot;<sp/>src=&quot;https://www.ucu.edu.uy/plantillas/images/logo_ucu.svg&quot;</highlight></codeline>
+<codeline><highlight class="normal">width=&quot;150&quot;/&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Universidad<sp/>Católica<sp/>del<sp/>Uruguay</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Facultad<sp/>de<sp/>Ingeniería<sp/>y<sp/>Tecnologías</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Programación<sp/>II</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Desafío<sp/>menú<sp/>#1:<sp/>Restaurante<sp/>simple</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Objetivo</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Completar<sp/>la<sp/>implementación<sp/>en<sp/>C#<sp/>las<sp/>clases<sp/>indicadas<sp/>a<sp/>continuación,<sp/>con<sp/>sus</highlight></codeline>
+<codeline><highlight class="normal">responsabilidades<sp/>y<sp/>colaboraciones<sp/>también<sp/>indicadas<sp/>a<sp/>continuación.<sp/>Cada<sp/>clase</highlight></codeline>
+<codeline><highlight class="normal">debe<sp/>ser<sp/>agregada<sp/>por<sp/>un<sp/>estudiante<sp/>diferente<sp/>y<sp/>deben<sp/>trabajar<sp/>en<sp/>ramas</highlight></codeline>
+<codeline><highlight class="normal">diferentes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Pasos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Uno<sp/>de<sp/>los<sp/>estudiantes<sp/>del<sp/>equipo<sp/>crea<sp/>un<sp/>repositorio<sp/>privado<sp/>a<sp/>partir<sp/>de</highlight></codeline>
+<codeline><highlight class="normal">este<sp/>repositorio<sp/>plantilla<sp/>haciendo<sp/>clic<sp/>en<sp/>el<sp/>botón<sp/>`Use<sp/>this<sp/>template`<sp/>y<sp/>luego</highlight></codeline>
+<codeline><highlight class="normal">en<sp/>el<sp/>comando<sp/>`Create<sp/>new<sp/>repository`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2.<sp/>El<sp/>estudiante<sp/>que<sp/>creó<sp/>el<sp/>repositorio<sp/>agrega<sp/>a<sp/>los<sp/>demás<sp/>integrantes<sp/>del</highlight></codeline>
+<codeline><highlight class="normal">equipo<sp/>haciendo<sp/>clic<sp/>en<sp/>`Settings`,<sp/>`Collaborators<sp/>and<sp/>Teams`,<sp/>`Add<sp/>people`<sp/>para</highlight></codeline>
+<codeline><highlight class="normal">cada<sp/>uno<sp/>de<sp/>los<sp/>miembros<sp/>del<sp/>equipo,<sp/>usando<sp/>sus<sp/>nombres<sp/>de<sp/>usuario.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3.<sp/>Todos<sp/>clonan<sp/>el<sp/>repositorio<sp/>creado<sp/>a<sp/>sus<sp/>equipos.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">4.<sp/>Todos<sp/>crean<sp/>una<sp/>rama<sp/>con<sp/>el<sp/>nombre<sp/>que<sp/>quieran,<sp/>la<sp/>única<sp/>condición<sp/>es<sp/>que</highlight></codeline>
+<codeline><highlight class="normal">deben<sp/>ser<sp/>diferentes<sp/>para<sp/>cada<sp/>miembro<sp/>del<sp/>equipo.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">5.<sp/>Distribuyan<sp/>las<sp/>siguientes<sp/>clases<sp/>entre<sp/>los<sp/>miembros<sp/>del<sp/>equipo.<sp/>Cada<sp/>miembro</highlight></codeline>
+<codeline><highlight class="normal">implementa<sp/>una<sp/>clase<sp/>diferente.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">6.<sp/>El<sp/>código<sp/>no<sp/>va<sp/>a<sp/>funcionar<sp/>hasta<sp/>que<sp/>integren<sp/>el<sp/>trabajo<sp/>en<sp/>la<sp/>rama<sp/>`main`,</highlight></codeline>
+<codeline><highlight class="normal">por<sp/>lo<sp/>que<sp/>deberán<sp/>unir<sp/>los<sp/>cambios<sp/>con<sp/>frecuencia.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!IMPORTANT]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Para<sp/>compilar<sp/>el<sp/>código<sp/>en<sp/>Rider<sp/>usen<sp/>el<sp/>comando<sp/>`Build<sp/>Solution`<sp/>del<sp/>menú</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>`Build`.</highlight></codeline>
+<codeline><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Aunque<sp/>todavía<sp/>no<sp/>vamos<sp/>a<sp/>ver<sp/>cómo<sp/>hacer<sp/>casos<sp/>de<sp/>prueba,<sp/>este<sp/>repositorio<sp/>usa</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>casos<sp/>de<sp/>prueba<sp/>para<sp/>comprobar<sp/>la<sp/>implementación.<sp/>Para<sp/>ejecutar<sp/>los<sp/>casos<sp/>de</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>prueba<sp/>ejecuten<sp/>el<sp/>comando<sp/>`Run<sp/>All<sp/>Tests<sp/>from<sp/>Solution`<sp/>en<sp/>el<sp/>menú<sp/>`Tests`<sp/>de</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Rider.<sp/>Deberían<sp/>ver<sp/>una<sp/>imagen<sp/>como<sp/>la<sp/>siguiente<sp/>si<sp/>todo<sp/>funcionó<sp/>bien:</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>&lt;img<sp/>src=&quot;/assets/image.png&quot;<sp/>alt=&quot;Resultado<sp/>de<sp/>las<sp/>pruebas&quot;<sp/>width=&quot;345&quot;<sp/>/&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Clases<sp/>a<sp/>implementar</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>continuación<sp/>la<sp/>descripción<sp/>de<sp/>las<sp/>clases,<sp/>sus<sp/>responsabilidades<sp/>de<sp/>hacer<sp/>y<sp/>de</highlight></codeline>
+<codeline><highlight class="normal">conocer,<sp/>y<sp/>sus<sp/>colaboraciones.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>1.<sp/>**Clase<sp/>`Dish`**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Representa<sp/>un<sp/>platillo<sp/>individual<sp/>en<sp/>el<sp/>menú<sp/>del<sp/>restaurante.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;table&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;th<sp/>colspan=&quot;2&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Dish</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/th&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>el<sp/>nombre<sp/>del<sp/>platillo&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>el<sp/>precio<sp/>del<sp/>platillo&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conoce<sp/>si<sp/>el<sp/>platillo<sp/>es<sp/>vegetariano<sp/>o<sp/>no&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/table&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>conocer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>**Name**:<sp/>Conocer<sp/>el<sp/>nombre<sp/>del<sp/>platillo.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>**Price**:<sp/>Conocer<sp/>el<sp/>precio<sp/>del<sp/>platillo.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>**IsVegetarian**:<sp/>Conocer<sp/>si<sp/>el<sp/>platillo<sp/>es<sp/>vegetariano<sp/>o<sp/>no.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>No<sp/>tiene<sp/>responsabilidades<sp/>de<sp/>hacer.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>No<sp/>tiene<sp/>colaboradores.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!IMPORTANT]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Debe<sp/>ser<sp/>posible<sp/>crear<sp/>una<sp/>instancia<sp/>de<sp/>`Dish`<sp/>e<sp/>inicializar<sp/>sus<sp/>propiedades</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>en<sp/>una<sp/>sola<sp/>operación.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Aquí<sp/>está<sp/>el<sp/>código<sp/>provisto<sp/>de<sp/>la<sp/>clase<sp/>[`Dish`](./src/Dish.cs).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>2.<sp/>**Clase<sp/>`Menu`**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Representa<sp/>el<sp/>conjunto<sp/>de<sp/>platillos<sp/>disponibles<sp/>en<sp/>el<sp/>restaurante.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;table&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;th<sp/>colspan=&quot;2&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Menu</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/th&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>disponibles<sp/>en<sp/>el<sp/>restaurante&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Agregar<sp/>un<sp/>platillo<sp/>a<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>del<sp/>menú&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Eliminar<sp/>un<sp/>platillo<sp/>de<sp/>la<sp/>lista<sp/>del<sp/>menú&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Buscar<sp/>y<sp/>devolver<sp/>un<sp/>platillo<sp/>específico<sp/>del<sp/>menú<sp/>basado<sp/>en<sp/>su<sp/>nombre&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Dish</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/table&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>conocer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`dishes`:<sp/>Conocer<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>disponibles<sp/>en<sp/>el<sp/>restaurante;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>esta<sp/>responsabilidad<sp/>está<sp/>ya<sp/>implementada<sp/>con<sp/>la<sp/>variable<sp/>de<sp/>instancia</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>`dishes`<sp/>en<sp/>el<sp/>código<sp/>provisto.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>hacer</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`AddDish(Dish)`:<sp/>Agregar<sp/>un<sp/>platillo<sp/>a<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>del<sp/>menú.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`RemoveDish(Dish)`:<sp/>Eliminar<sp/>un<sp/>platillo<sp/>de<sp/>la<sp/>lista<sp/>del<sp/>menú.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Dish<sp/>GetDishByName(string)`:<sp/>Buscar<sp/>y<sp/>devolver<sp/>un<sp/>platillo<sp/>específico<sp/>del</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menú<sp/>basado<sp/>en<sp/>su<sp/>nombre;<sp/>retorna<sp/>`null`<sp/>si<sp/>no<sp/>encuentra<sp/>en<sp/>platillo.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Colaboradores</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Dish</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!TIP]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Puedes<sp/>acceder<sp/>al<sp/>i-ésimo<sp/>elemento<sp/>de<sp/>la<sp/>variable<sp/>de<sp/>instancia<sp/>`dishes`<sp/>con</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>`dishes[i]`<sp/>y<sp/>las<sp/>estructuras<sp/>de<sp/>repetición<sp/>condicional<sp/>que<sp/>consideres</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>apropiadas.<sp/>También<sp/>puedes<sp/>recorrer<sp/>los<sp/>platillos<sp/>en<sp/>esa<sp/>variable<sp/>de<sp/>instancia</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>con<sp/>la<sp/>estructura<sp/>repetitiva<sp/>condicional<sp/>`foreach`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Aquí<sp/>está<sp/>el<sp/>código<sp/>provisto<sp/>de<sp/>la<sp/>clase<sp/>[`Menu`](./src/Menu.cs).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>3.<sp/>**Clase<sp/>[`Table`](./src/Table.cs)**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Representa<sp/>una<sp/>mesa<sp/>en<sp/>el<sp/>restaurante.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;table&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;th<sp/>colspan=&quot;2&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Table</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/th&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>el<sp/>número<sp/>identificador<sp/>de<sp/>la<sp/>mesa&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>si<sp/>la<sp/>mesa<sp/>está<sp/>ocupada<sp/>o<sp/>no&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>que<sp/>han<sp/>sido<sp/>ordenados<sp/>en<sp/>la<sp/>mesa&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Marcar<sp/>la<sp/>mesa<sp/>como<sp/>ocupada&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Liberar<sp/>la<sp/>mesa<sp/>y<sp/>vaciar<sp/>la<sp/>lista<sp/>de<sp/>pedidos&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Agregar<sp/>un<sp/>platillo<sp/>a<sp/>los<sp/>que<sp/>han<sp/>sido<sp/>ordenados<sp/>en<sp/>la<sp/>mesa&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Determinar<sp/>si<sp/>la<sp/>mesa<sp/>tiene<sp/>pedidos<sp/>o<sp/>no&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Dish</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/table&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>conocer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Number`:<sp/>Conocer<sp/>el<sp/>número<sp/>identificador<sp/>de<sp/>la<sp/>mesa.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`IsOccupied`:<sp/>Conocer<sp/>si<sp/>la<sp/>mesa<sp/>está<sp/>ocupada<sp/>o<sp/>no.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Order`:<sp/>Conocer<sp/>la<sp/>lista<sp/>de<sp/>platillos<sp/>que<sp/>han<sp/>sido<sp/>pedidos<sp/>en<sp/>la<sp/>mesa;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>esta<sp/>responsabilidad<sp/>está<sp/>ya<sp/>implementada<sp/>con<sp/>la<sp/>variable<sp/>de<sp/>instancia</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>`order`<sp/>en<sp/>el<sp/>código<sp/>provisto.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>hacer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Occupy()`:<sp/>Marcar<sp/>la<sp/>mesa<sp/>como<sp/>ocupada.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Free()`:<sp/>Liberar<sp/>la<sp/>mesa<sp/>y<sp/>vaciar<sp/>la<sp/>lista<sp/>de<sp/>pedidos.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`AddToOrder(Dish)`:<sp/>Agregar<sp/>un<sp/>platillo<sp/>a<sp/>la<sp/>lista<sp/>de<sp/>pedidos.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`bool<sp/>HasOrders()`:<sp/>Determinar<sp/>si<sp/>la<sp/>mesa<sp/>tiene<sp/>pedidos<sp/>o<sp/>no;<sp/>retorna<sp/>`true`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>si<sp/>los<sp/>tiene<sp/>y<sp/>`false`<sp/>en<sp/>caso<sp/>contrario.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Colaboradores:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Dish</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!TIP]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>El<sp/>método<sp/>`Clear()`<sp/>de<sp/>la<sp/>clase<sp/>`ArrayList`<sp/>vacía<sp/>la<sp/>lista.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!IMPORTANT]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Debe<sp/>ser<sp/>posible<sp/>crear<sp/>una<sp/>instancia<sp/>de<sp/>`Table`<sp/>e<sp/>inicializar<sp/>sus<sp/>propiedades</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>en<sp/>una<sp/>sola<sp/>operación.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Aquí<sp/>está<sp/>el<sp/>código<sp/>provisto<sp/>de<sp/>la<sp/>clase<sp/>[`Table`](./src/Table.cs).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>4.<sp/>**Clase<sp/>`Waiter`**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Representa<sp/>un<sp/>mozo<sp/>en<sp/>el<sp/>restaurante,<sp/>encargado<sp/>de<sp/>atender<sp/>mesas.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;table&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;th<sp/>colspan=&quot;2&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Waiter</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/th&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>el<sp/>nombre<sp/>del<sp/>mozo&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Conocer<sp/>las<sp/>mesas<sp/>asignadas<sp/>al<sp/>mozo&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Asignar<sp/>una<sp/>mesa<sp/>al<sp/>mozo&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Tomar<sp/>un<sp/>pedido<sp/>para<sp/>una<sp/>mesa<sp/>específica<sp/>y<sp/>agregar<sp/>el<sp/>platillo<sp/>a<sp/>la<sp/>orden</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>de<sp/>esa<sp/>mesa&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Dish&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Table&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/table&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>conocer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`Name`:<sp/>Conocer<sp/>el<sp/>nombre<sp/>del<sp/>mozo.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`assignedTables`:<sp/>Conocer<sp/>las<sp/>mesas<sp/>asignadas<sp/>al<sp/>mozo;<sp/>esta<sp/>responsabilidad</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>está<sp/>ya<sp/>implementada<sp/>con<sp/>la<sp/>variable<sp/>de<sp/>instancia<sp/>`assignedTables`<sp/>en<sp/>el</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>código<sp/>provisto.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Responsabilidades<sp/>de<sp/>hacer:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`AssignTable(Table)`:<sp/>Asignar<sp/>una<sp/>mesa<sp/>al<sp/>mozo.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>`TakeOrder(Table,<sp/>Dish)`:<sp/>Tomar<sp/>un<sp/>pedido<sp/>para<sp/>una<sp/>mesa<sp/>específica</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>agregar<sp/>el<sp/>platillo<sp/>a<sp/>la<sp/>orden<sp/>de<sp/>esa<sp/>mesa.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Colaboradores:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Dish</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Table</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>[!IMPORTANT]</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Debe<sp/>ser<sp/>posible<sp/>crear<sp/>una<sp/>instancia<sp/>de<sp/>`Waiter`<sp/>e<sp/>inicializar<sp/>sus<sp/>propiedades</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>en<sp/>una<sp/>sola<sp/>operación.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Aquí<sp/>está<sp/>el<sp/>código<sp/>provisto<sp/>de<sp/>la<sp/>clase<sp/>[`Waiter`](./src/Waiter.cs).</highlight></codeline>
+    </programlisting>
+    <location file="Desafio_Menu_1-main/README.md"/>
+  </compounddef>
+</doxygen>

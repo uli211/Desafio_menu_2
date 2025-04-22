@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kind="class" language="C#" prot="public">
+    <compoundname>Ucu::Poo::Restaurant::Dish</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a3f29ed3b14e9ccbad14261040f3eeb7b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Ucu.Poo.Restaurant.Dish.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Dish.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Dish.cs" line="9" column="19" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a29f6951f0bf7641cf6912ab8fc1858a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Ucu.Poo.Restaurant.Dish.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Dish.Price</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Dish.cs" line="10" column="19" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a4e8f3ef4be7505c2e79f8d850860d109" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Ucu.Poo.Restaurant.Dish.IsVegetarian</definition>
+        <argsstring></argsstring>
+        <name>IsVegetarian</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Dish.IsVegetarian</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Dish.cs" line="11" column="17" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1af444f6db54e6b08260a315e7052c8415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ucu.Poo.Restaurant.Dish.Dish</definition>
+        <argsstring>(string name, double price, bool isVegetarian)</argsstring>
+        <name>Dish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Dish.Dish</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isVegetarian</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Dish.cs" line="14" column="12" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a0f55d38bed1c492814eb65c1e1655154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Ucu.Poo.Restaurant.Dish.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Dish.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Dish.cs" line="22" column="28" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa un platillo individual en el menú del restaurante. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/Dish.cs" line="6" column="7" bodyfile="Desafio_Menu_1-main/src/Dish.cs" bodystart="7" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1af444f6db54e6b08260a315e7052c8415" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Dish</scope><name>Dish</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a4e8f3ef4be7505c2e79f8d850860d109" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Dish</scope><name>IsVegetarian</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a3f29ed3b14e9ccbad14261040f3eeb7b" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Dish</scope><name>Name</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a29f6951f0bf7641cf6912ab8fc1858a0" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Dish</scope><name>Price</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a0f55d38bed1c492814eb65c1e1655154" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Dish</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

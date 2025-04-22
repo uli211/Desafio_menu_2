@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="dir_678c66b9bfc761a8aac917e0c1301e2d" kind="dir">
+    <compoundname>Desafio_Menu_1-main/src/obj/Debug</compoundname>
+    <innerdir refid="dir_b3b148a1b48d5002e4e150d06a61f16b">Desafio_Menu_1-main/src/obj/Debug/net8.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/obj/Debug/"/>
+  </compounddef>
+</doxygen>

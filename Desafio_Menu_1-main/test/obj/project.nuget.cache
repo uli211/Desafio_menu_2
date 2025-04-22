@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ILHPqAu3RYmLHn3rnYkTeKgOGLG6BzXvQnN1egspQIcYwNqrESBAfL8IVoOSJjJx6ziKwXQs44ced4P7UeUuA==",
+  "dgSpecHash": "x4oKG4EgJ/jRf7cU93oobUluj65gqlZRlktmDQ/Zd4cZnStA/lb8Zxq6sni+kb30MVsvTnJuuanVwflO33Yg3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ulise\\RiderProjects\\pii_2024_2_equipo14\\Desafio_menu_2_2\\Desafio_Menu_1-main\\test\\ProgramTests.csproj",
+  "projectFilePath": "C:\\ProgramacionII_Recursar\\Desafio_menu_2\\Desafio_menu_2\\Desafio_Menu_1-main\\test\\ProgramTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ulise\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ulise\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

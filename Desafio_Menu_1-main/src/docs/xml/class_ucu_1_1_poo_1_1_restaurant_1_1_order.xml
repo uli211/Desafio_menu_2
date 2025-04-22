@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="es">
+  <compounddef id="class_ucu_1_1_poo_1_1_restaurant_1_1_order" kind="class" language="C#" prot="public">
+    <compoundname>Ucu::Poo::Restaurant::Order</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6b5a8a94af98873766a836ef4cd6a709" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref> &gt;</type>
+        <definition>List&lt;Dish&gt; Ucu.Poo.Restaurant.Order.dishes</definition>
+        <argsstring></argsstring>
+        <name>dishes</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.dishes</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="7" column="22" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abafaa1b9291ed6d4fd461cb9fc2e4e2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Ucu.Poo.Restaurant.Order.IsTakeout</definition>
+        <argsstring></argsstring>
+        <name>IsTakeout</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.IsTakeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="8" column="21" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abc4f4f1d5e25a919f60b31461ee40e5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ucu.Poo.Restaurant.Order.Order</definition>
+        <argsstring>(bool isTakeout=false)</argsstring>
+        <name>Order</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.Order</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isTakeout</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="10" column="16" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6720920d40a8755fcebc7d6d9a128e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Order.AddDish</definition>
+        <argsstring>(Dish dish)</argsstring>
+        <name>AddDish</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.AddDish</qualifiedname>
+        <param>
+          <type><ref refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kindref="compound">Dish</ref></type>
+          <declname>dish</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="15" column="21" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a99984edc64048f7c8614dd138b63cd8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Ucu.Poo.Restaurant.Order.GetTotal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTotal</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.GetTotal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="20" column="23" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a225aead814649b5fea36a73f3f047612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ucu.Poo.Restaurant.Order.ShowOrder</definition>
+        <argsstring>()</argsstring>
+        <name>ShowOrder</name>
+        <qualifiedname>Ucu.Poo.Restaurant.Order.ShowOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Desafio_Menu_1-main/src/Order.cs" line="31" column="21" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Desafio_Menu_1-main/src/Order.cs" line="5" column="11" bodyfile="Desafio_Menu_1-main/src/Order.cs" bodystart="6" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6720920d40a8755fcebc7d6d9a128e2d" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>AddDish</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6b5a8a94af98873766a836ef4cd6a709" prot="private" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>dishes</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a99984edc64048f7c8614dd138b63cd8a" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>GetTotal</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abafaa1b9291ed6d4fd461cb9fc2e4e2c" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>IsTakeout</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abc4f4f1d5e25a919f60b31461ee40e5c" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>Order</name></member>
+      <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a225aead814649b5fea36a73f3f047612" prot="public" virt="non-virtual"><scope>Ucu::Poo::Restaurant::Order</scope><name>ShowOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

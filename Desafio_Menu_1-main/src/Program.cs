@@ -4,8 +4,18 @@ using Ucu.Poo.Restaurant;
 namespace Ucu.Poo.RestaurantApp
 
 {
-class Program
+    /// <summary>
+    /// Clase principal que contiene el punto de entrada del programa.
+    /// Permite gestionar el menú, las mesas, los pedidos en mesa y para llevar
+    /// en un restaurante mediante una interfaz de consola.
+    /// </summary>
+    class Program
     {
+        /// <summary>
+        /// Método principal que se ejecuta al iniciar el programa.
+        /// Contiene el ciclo principal del menú interactivo para el restaurante.
+        /// </summary>
+        /// <param name="args">Argumentos de la línea de comandos (no utilizados).</param>
         static void Main(string[] args)
         {
             // Crear un menú y agregar algunos platillos
@@ -23,6 +33,7 @@ class Program
 
             bool running = true;
 
+            // Ciclo principal del programa
             while (running)
             {
                 Console.WriteLine("\n--- Menú del Restaurante ---");
@@ -76,6 +87,7 @@ class Program
                             Console.Write("¿Quieres agregar otro platillo? (s/n): ");
                             moreOrders = Console.ReadLine();
                         } while (moreOrders.Equals("s", StringComparison.OrdinalIgnoreCase));
+
                         break;
 
                     case "4":

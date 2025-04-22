@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="es">
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish" kind="class"><name>Ucu::Poo::Restaurant::Dish</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a3f29ed3b14e9ccbad14261040f3eeb7b" kind="property"><name>Name</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a29f6951f0bf7641cf6912ab8fc1858a0" kind="property"><name>Price</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a4e8f3ef4be7505c2e79f8d850860d109" kind="property"><name>IsVegetarian</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1af444f6db54e6b08260a315e7052c8415" kind="function"><name>Dish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_dish_1a0f55d38bed1c492814eb65c1e1655154" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_dish_tests" kind="class"><name>Ucu::Poo::Restaurant::Tests::DishTests</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_dish_tests_1aeb2aa7c9ede0da98515fbd297ad05f29" kind="function"><name>Constructor_WithValidParameters_SetsProperties</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu" kind="class"><name>Ucu::Poo::Restaurant::Menu</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a50558d085b413c0a019062de726ddb76" kind="variable"><name>dishes</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a45817eb8e9908e7dce475e7f8051cf96" kind="function"><name>AddDish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a18b1e101e2c34a5f13120ca5f7ce23e9" kind="function"><name>RemoveDish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a6a7ca0bbe7d75db2553fd0a30516b831" kind="function"><name>GetDishByName</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_menu_1a0179605e53ff07185111aa29b888ea31" kind="function"><name>ShowMenu</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests" kind="class"><name>Ucu::Poo::Restaurant::Tests::MenuTests</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a38838edffa82759c12c62d9d54fc96bf" kind="function"><name>AddDish_WithValidDish_AddsDish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1a2af1366cf38878de6805d5a047f87875" kind="function"><name>RemoveDish_WithValidDish_RemovesDish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_menu_tests_1ae2d2fd069f88eaede1a79be5e3ad4ceb" kind="function"><name>GetDishByName_WithInvalidDish_ReturnsNull</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order" kind="class"><name>Ucu::Poo::Restaurant::Order</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6b5a8a94af98873766a836ef4cd6a709" kind="variable"><name>dishes</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abafaa1b9291ed6d4fd461cb9fc2e4e2c" kind="property"><name>IsTakeout</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1abc4f4f1d5e25a919f60b31461ee40e5c" kind="function"><name>Order</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a6720920d40a8755fcebc7d6d9a128e2d" kind="function"><name>AddDish</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a99984edc64048f7c8614dd138b63cd8a" kind="function"><name>GetTotal</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_order_1a225aead814649b5fea36a73f3f047612" kind="function"><name>ShowOrder</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_app_1_1_program" kind="class"><name>Ucu::Poo::RestaurantApp::Program</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_app_1_1_program_1aa55641a436e384b9a5cd29007e64098a" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table" kind="class"><name>Ucu::Poo::Restaurant::Table</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a08225ea9b49b43c9e26ea042242d07aa" kind="property"><name>Number</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a0aaace2db85dfec6e2211f961e99a890" kind="property"><name>IsOccupied</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a879fe98d3ddd67dc29afb9c8c3ec787f" kind="variable"><name>order</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a771ba8f8866de30e288cdf4ea79958b2" kind="function"><name>Table</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a6a3edc6e1e1d45f3e26d6c27f0fcca78" kind="function"><name>Occupy</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a48a3d2f832dd582db49a67da14ad9a62" kind="function"><name>Free</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1ae6fcf7da9a6af9c64dd557fb3a8d9838" kind="function"><name>AddToOrder</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a3e1900bf8ff92db5248b41e8945df42a" kind="function"><name>GetTotal</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_table_1a4c941fd9c39a401a275d9d2714237108" kind="function"><name>ShowOrder</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests" kind="class"><name>Ucu::Poo::Restaurant::Tests::TableTests</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests_1a758356064577d797a485b4a471ff2f58" kind="function"><name>Constructor_WithValidParameters_SetsProperties</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests_1ac1626d3bdbd0d3e2e20163e451e7e6b1" kind="function"><name>IsOccupied_WithOccupiedTable_ReturnsTrue</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests_1a62fb054e742954731a9b2163b07d7d87" kind="function"><name>HasOrders_BeforeAddOrder_ReturnsFalse</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests_1a298a2bf18b4bda7aaa606c0a790439d6" kind="function"><name>HasOrders_AfterAddOrder_ReturnsTrue</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_table_tests_1a6bc3217006a30d669cadd1bec6c92074" kind="function"><name>Free_WithOccupiedTable_SetsIsOccupiedToFalseAndEmptiesOrder</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter" kind="class"><name>Ucu::Poo::Restaurant::Waiter</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter_1af7f5bc483d471a92746c76030e6edf43" kind="property"><name>Name</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter_1ac754ac4f453ab0708d0acd22d5f2c5da" kind="variable"><name>assignedTables</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter_1a8ff2c3727ca74fba253eaec1fd708b2e" kind="function"><name>Waiter</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter_1a46cfb8e38c10fd44dead7e8933ea6564" kind="function"><name>AssignTable</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_waiter_1ab3ab16e5258cdfa83b0fbaaf8f24376b" kind="function"><name>TakeOrder</name></member>
+  </compound>
+  <compound refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests" kind="class"><name>Ucu::Poo::Restaurant::Tests::WaiterTests</name>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1ae5de16accdb24c6bb8852b37ca76178f" kind="function"><name>Constructor_WithValidParameters_SetsProperties</name></member>
+    <member refid="class_ucu_1_1_poo_1_1_restaurant_1_1_tests_1_1_waiter_tests_1a0607f112083093dd214cc801f0f0cae9" kind="function"><name>TakeOrder_WithValidParameters_TakesOrder</name></member>
+  </compound>
+  <compound refid="namespaceglobal_1_1_n_unit_1_1_framework" kind="namespace"><name>global::NUnit::Framework</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_ucu" kind="namespace"><name>Ucu</name>
+  </compound>
+  <compound refid="namespace_ucu_1_1_poo" kind="namespace"><name>Ucu::Poo</name>
+  </compound>
+  <compound refid="namespace_ucu_1_1_poo_1_1_restaurant" kind="namespace"><name>Ucu::Poo::Restaurant</name>
+  </compound>
+  <compound refid="namespace_ucu_1_1_poo_1_1_restaurant_1_1_tests" kind="namespace"><name>Ucu::Poo::Restaurant::Tests</name>
+  </compound>
+  <compound refid="namespace_ucu_1_1_poo_1_1_restaurant_app" kind="namespace"><name>Ucu::Poo::RestaurantApp</name>
+  </compound>
+  <compound refid="_desafio___menu__1-main_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_dish_8cs" kind="file"><name>Dish.cs</name>
+  </compound>
+  <compound refid="_menu_8cs" kind="file"><name>Menu.cs</name>
+  </compound>
+  <compound refid="src_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="test_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_program_8_assembly_info_8cs" kind="file"><name>Program.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_program_8_global_usings_8g_8cs" kind="file"><name>Program.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_order_8cs" kind="file"><name>Order.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_table_8cs" kind="file"><name>Table.cs</name>
+  </compound>
+  <compound refid="_waiter_8cs" kind="file"><name>Waiter.cs</name>
+  </compound>
+  <compound refid="_dish_tests_8cs" kind="file"><name>DishTests.cs</name>
+  </compound>
+  <compound refid="_menu_tests_8cs" kind="file"><name>MenuTests.cs</name>
+  </compound>
+  <compound refid="_program_tests_8_assembly_info_8cs" kind="file"><name>ProgramTests.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_program_tests_8_global_usings_8g_8cs" kind="file"><name>ProgramTests.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_table_tests_8cs" kind="file"><name>TableTests.cs</name>
+  </compound>
+  <compound refid="_waiter_tests_8cs" kind="file"><name>WaiterTests.cs</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md__r_e_a_d_m_e</name>
+  </compound>
+  <compound refid="dir_678c66b9bfc761a8aac917e0c1301e2d" kind="dir"><name>Desafio_Menu_1-main/src/obj/Debug</name>
+  </compound>
+  <compound refid="dir_377e4d5c464ac13cb9baa3a17a303980" kind="dir"><name>Desafio_Menu_1-main/test/obj/Debug</name>
+  </compound>
+  <compound refid="dir_ee82243fc676084d41312a8abeda4a0c" kind="dir"><name>Desafio_Menu_1-main</name>
+  </compound>
+  <compound refid="dir_b3b148a1b48d5002e4e150d06a61f16b" kind="dir"><name>Desafio_Menu_1-main/src/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_8331af8590a5586c9b0ab1debf5597d4" kind="dir"><name>Desafio_Menu_1-main/test/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_7b1eaa8f242433b6c385739311585f72" kind="dir"><name>Desafio_Menu_1-main/src/obj</name>
+  </compound>
+  <compound refid="dir_f01837a4787747d45f2fa135b14681b0" kind="dir"><name>Desafio_Menu_1-main/test/obj</name>
+  </compound>
+  <compound refid="dir_adf41ace33a57a022aa752c73984cc88" kind="dir"><name>Desafio_Menu_1-main/src</name>
+  </compound>
+  <compound refid="dir_7e350d0520def89a4b1af6bcf628658a" kind="dir"><name>Desafio_Menu_1-main/test</name>
+  </compound>
+</doxygenindex>
