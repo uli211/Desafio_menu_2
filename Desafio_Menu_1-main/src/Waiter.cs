@@ -22,19 +22,10 @@ namespace Ucu.Poo.Restaurant
 
         public void TakeOrder(Table table, Dish dish)
         {
-            if (assignedTables.Contains(table))
+            if (assignedTables.Contains(table) && table.IsOccupied)
             {
                 table.AddToOrder(dish);
             }
-        }
-
-        public double GetTotal(Table table)
-        {
-            if (assignedTables.Contains(table))
-            {
-                return table.GetTotal();
-            }
-            return 0;
         }
     }
 }

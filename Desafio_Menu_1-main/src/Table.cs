@@ -12,23 +12,26 @@ namespace Ucu.Poo.Restaurant
         {
             Number = number;
             IsOccupied = false;
-            order = new Order();
+            order = new Order(); // Inicializa una nueva orden.
         }
 
         public void Occupy()
         {
-            IsOccupied = true;
+            IsOccupied = true; // Marca la mesa como ocupada.
         }
 
         public void Free()
         {
-            IsOccupied = false;
-            order = new Order(); // Crear una nueva instancia de Order al liberar la mesa.
+            IsOccupied = false; // Libera la mesa.
+            order = new Order(); // Reinicia la orden al liberar la mesa.
         }
 
         public void AddToOrder(Dish dish)
         {
-            order.AddDish(dish);
+            if (IsOccupied) // Asegurarse de que la mesa esté ocupada antes de agregar un platillo.
+            {
+                order.AddDish(dish); // Agregar el platillo a la orden.
+            }
         }
 
         public double GetTotal()
@@ -36,9 +39,9 @@ namespace Ucu.Poo.Restaurant
             return order.GetTotal(); // Delegar el cálculo a la clase Order.
         }
 
-        public bool HasOrders()
+        public void ShowOrder()
         {
-            return order.HasDishes(); // Verifica si hay platillos en la orden.
+            order.ShowOrder(); // Mostrar el resumen de la orden.
         }
     }
 }

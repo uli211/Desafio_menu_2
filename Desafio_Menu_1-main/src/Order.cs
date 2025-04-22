@@ -9,12 +9,12 @@ namespace Ucu.Poo.Restaurant
 
         public Order(bool isTakeout = false)
         {
-            this.IsTakeout = isTakeout;
+            this.IsTakeout = isTakeout; // Indica si la orden es para llevar.
         }
 
         public void AddDish(Dish dish)
         {
-            this.dishes.Add(dish);
+            this.dishes.Add(dish); // Agregar el platillo a la lista de la orden.
         }
 
         public double GetTotal()
@@ -22,14 +22,21 @@ namespace Ucu.Poo.Restaurant
             double total = 0;
             foreach (Dish dish in dishes)
             {
-                total += dish.Price;
+                total += dish.Price; // Calcular el total de los platillos en la orden.
             }
+
             return total;
         }
 
-        public bool HasDishes()
+        public void ShowOrder()
         {
-            return dishes.Count > 0;
+            Console.WriteLine("\n--- Resumen de la Orden ---");
+            foreach (Dish dish in dishes)
+            {
+                Console.WriteLine(dish.ToString());
+            }
+
+            Console.WriteLine($"Total: ${GetTotal()}");
         }
     }
 }
